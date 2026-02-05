@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
+header {
+  background-color: mistyrose;
+  text-align: center;
+}
 
-    header {
-        background-color: mistyrose;
-        text-align: center;
-    } 
-    
-    <title>My Music Page</title> 
-    
-    <!-- Link to the stylesheet called style.css -->
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <!-- Body HTML tags not shown -->
-  </body>
-</html>
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
