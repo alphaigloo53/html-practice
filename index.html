@@ -2,35 +2,53 @@
 <html>
   <head> 
     <title>My Music Page</title> 
-    <link rel = "stylesheet" href = "css/css.html" />
+    <link rel = "stylesheet" href = "css/style.css" />
   </head> 
+  
   <body> 
-    <h1>My Music Page</h1>
-    <p>This is a webpage about some of my favorite music and artists!</p>
-    
-    <h3>Red Hot Chili Peppers</h3>
-    <img
+    <header id = "main_page_header">
+     <h1>My Music Page</h1>
+     <p>This is a webpage about some of my favorite music and artists!</p>
+    </header>
+   
+    <main id = "page1_content">
+      <article id = "rhcp">
+     <h3>Red Hot Chili Peppers</h3>
+     <img
        src = "img/rhcp.jpeg"
        alt = "An image of the Chili Peppers logo"
        width = "20%"  
-    >
-    <p>Favorite Songs</p>
-    <ul>
+     >
+    </main>
+
+    <section id = "songs">
+     <p class = "subheader">Favorite Songs</p>
+     <ul>
         <li>Under the Bridge</li>
         <li>Sick Love</li>
         <li>Californication</li>
-    </ul>
-    <p>Favorite Albums</p>
-    <ol>
+     </ul>
+    </section>
+    
+    <section id = "albums">
+     <p class = "subheader">Favorite Albums</p>
+      <ol>
         <li>By the Way</li>
         <li>Blood Sugar Sex Magik</li>
         <li>The Getaway</li>
-    </ol>
-    <p>Learn more about<a href = "https://redhotchilipeppers.com/"> the Red Hot Chili Peppers</a> here!</p>
-    <h4>See my other favorite artists!</h4>
-    <ul>
-        <li><a href = "./alice.html">Alice in Chains</a>
-        </li> <li><a href = "./kendrick.html">Kendrick Lamar</a></li>
-    </ul>
+      </ol>
+     </section>
+    
+      <p class = "button">Learn more about
+      <a href = "https://redhotchilipeppers.com/"> the Red Hot Chili Peppers</a> here!</p>
+    </article>
+   
+    <nav id = "footer">
+     <h4>See my other favorite artists!</h4>
+      <ul>
+        <li><a href = "./alice.html">Alice in Chains</a></li> 
+        <li><a href = "./kendrick.html">Kendrick Lamar</a></li>
+      </ul>
+    </nav>
   </body> 
 </html>             
